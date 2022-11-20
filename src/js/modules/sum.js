@@ -1,1 +1,0 @@
-export default (qwerty123, qwerty321) => qwerty123 + qwerty321;

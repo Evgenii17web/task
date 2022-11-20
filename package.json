@@ -2,7 +2,7 @@
   "name": "test-task",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "src/js/main.js",
   "type": "module",
   "repository": {
     "type": "git",

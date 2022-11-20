@@ -1,3 +1,7 @@
-import sum from "./modules/sum.js";
-console.log(sum(2, 10));
-console.log(sum(4, 10));
+import parallax from "./modules/parallax.js";
+import copyCode from "./modules/copy-code.js";
+
+if ($(document).width() > 1024) {
+    parallax();
+}
+copyCode();
