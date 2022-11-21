@@ -63,7 +63,7 @@ p {
 }
 
 .welcome {
-  color: white;
+  color: #fff;
   margin-bottom: 3.125vw;
 }
 
@@ -118,7 +118,7 @@ p {
   border: #464646 dashed 1px;
   border-radius: 0 2.604vw 2.604vw 0;
   border-left-style: solid;
-  color: white;
+  color: #fff;
   cursor: pointer;
   -webkit-transition: font-size 1s;
   -o-transition: font-size 1s;
@@ -136,7 +136,7 @@ p {
   font: 900 1.042vw "Arial", sans-serif;
   background: #f73427;
   border-radius: 2.604vw;
-  color: white;
+  color: #fff;
   padding: 1.563vw 6.25vw;
   -webkit-transition: font-size 0.5s;
   -o-transition: font-size 0.5s;

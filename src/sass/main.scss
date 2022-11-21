@@ -1,3 +1,5 @@
+@import 'vars';
+
 @font-face {
   font-family: "Cambria";
   font-style: normal;
@@ -45,7 +47,7 @@ body, p {
 }
 
 .welcome {
-  color: white;
+  color: $color-white;
   margin-bottom: 3.125vw;
   &__percent {
     font-family: "Cambria", sans-serif;
@@ -68,11 +70,11 @@ body, p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #464646 dashed 1px;
+    border: $color-grey dashed 1px;
     border-radius: 2.604vw 0 0 2.604vw;
     border-right-style: solid;
     font-size: 2.083vw;
-    color: #f73427;
+    color: $color-red;
   }
   &__btn-copy {
     font-family: "Arial", sans-serif;
@@ -81,11 +83,11 @@ body, p {
     justify-content: center;
     align-items: center;
     height: 100%;
-    border: #464646 dashed 1px;
+    border: $color-grey dashed 1px;
     border-radius: 0 2.604vw 2.604vw 0;
     border-left-style: solid;
     font-size: 1.2vw;
-    color: white;
+    color: $color-white;
     cursor: pointer;
     transition: font-size 1s;
     &:active {
@@ -100,8 +102,8 @@ body, p {
   font-weight: 900;
   font-size: 1.042vw;
   border-radius: 2.604vw;
-  background-color: #f73427;
-  color: white;
+  background-color: $color-red;
+  color: $color-white;
   padding: 1.563vw 6.250vw;
   transition: font-size 0.5s;
   &:active {
@@ -123,7 +125,7 @@ body, p {
     width: 11.146vw;
   }
   &__terms {
-    color: #464646;
+    color: $color-grey;
     font-size: 0.729vw;
   }
 }
